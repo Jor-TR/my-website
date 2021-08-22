@@ -10,3 +10,5 @@ cd $NODE_SERVER
 node index.js
 
 # 启动java_server
+cd $JAVA_SERVER
+nohub java -jar myblog-0.0.1-SNAPSHOT.jar &

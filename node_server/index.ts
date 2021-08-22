@@ -11,6 +11,6 @@ app.use(async (ctx, next) => {
     ctx.response.body = '<h1>Hello, World!</h1>';
 });
 
-// 在端口3000监听:
+// 在端口80监听:
 app.listen(80);
 console.log('app started at port 80...');
